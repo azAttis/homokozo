@@ -23,7 +23,7 @@ for($i=0;$i<=100000; $i++)
 }
 
 
-$s = microtime(true);
+$time1 = microtime(true);
 for ($i=0; $i<sizeof($tab); $i++)
 {
             if ($tab[$i]['act'] == 1)
@@ -45,10 +45,9 @@ for ($i=0; $i<sizeof($tab); $i++)
              }
         }
 
-echo PHP_EOL.'For, all iterations end with sizeof: '.(microtime(true)-$s).' sec'.PHP_EOL;
+printf("\nFor, all iterations end with sizeof: %0.2d msec\n", (microtime(true) - $time1) * 1000);
 
-
-$s2 = microtime(true);
+$time2 = microtime(true);
 
 for ($i=0, $max=sizeof($tab); $i<$max; $i++)
 {
@@ -71,10 +70,10 @@ for ($i=0, $max=sizeof($tab); $i<$max; $i++)
              }
         }
 
-echo PHP_EOL.'For, only one sizeof call: '.(microtime(true)-$s2).' sec'.PHP_EOL;
+printf("\nFor, only one sizeof call: %0.2d msec\n", (microtime(true) - $time2) * 1000);
 
 
-$s22 = microtime(true);
+$time3 = microtime(true);
 $max=count($tab); 
 for ($i=0; $i<$max; $i++)
 {
@@ -99,9 +98,10 @@ for ($i=0; $i<$max; $i++)
              }
 
 } // for
-echo PHP_EOL.'for using reference: '.(microtime(true)-$s22).' sec'.PHP_EOL;
 
-$s3 = microtime(true);
+printf("\nFor using reference: %0.2d msec\n", (microtime(true) - $time3) * 1000);
+
+$time4 = microtime(true);
 foreach ($tab as $i => $v)
 {
             if ($v['act'] == 1)
@@ -123,9 +123,10 @@ foreach ($tab as $i => $v)
              }
         }
 
-echo PHP_EOL.'foreach: '.(microtime(true)-$s3).' sec'.PHP_EOL;
+printf("\nForeach: %0.2d msec\n", (microtime(true) - $time4) * 1000);
 
-$s33 = microtime(true);
+
+$time5 = microtime(true);
 $mapper = function ($tab) use ($i,$v)
 {
 	$t = $v['label'];
@@ -148,5 +149,5 @@ $mapper = function ($tab) use ($i,$v)
 };
 //array_map($mapper, $tab);
 array_walk($tab, $mapper);
+printf("\nMapper closure: %0.2d msec\n", (microtime(true) - $time5) * 1000);
 
-echo PHP_EOL.'Mapper closure: '.(microtime(true)-$s33).' sec'.PHP_EOL;
