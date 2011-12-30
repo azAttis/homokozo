@@ -1,4 +1,4 @@
-Some results (early 2k8 macbookpro):
+Some results (early 2k8 macbookpro) php/test-array-iterators.php
 
 For, all iterations end with sizeof: 2848 msec
 
