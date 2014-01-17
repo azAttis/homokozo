@@ -1,0 +1,328 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"AP",
+				"APP_DEBUG"
+			],
+			[
+				"define",
+				"defined"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"tr",
+				"trace"
+			],
+			[
+				"FILE",
+				"filePath"
+			],
+			[
+				"fil",
+				"filePath"
+			],
+			[
+				"php",
+				"php-section-comment	Insert a comment block at the start of a new section in your PHP class"
+			],
+			[
+				"l",
+				"insert_gist_list"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "php/index.php",
+			"settings":
+			{
+				"buffer_size": 836,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "php/app/bootstrap.php",
+			"settings":
+			{
+				"buffer_size": 2465,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 359.0,
+		"selected_items":
+		[
+			[
+				"php",
+				"PHP: Generate Getters and Setters"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 640.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/GitHub/homokozo/php/info.php",
+		"/C/GitHub/homokozo/php/index.php",
+		"/C/GitHub/homokozo/php/app/bootstrap.php",
+		"/C/GitHub/homokozo/homokozo.sublime-project",
+		"/C/GitHub/homokozo/sys/install_memcached.sh",
+		"/C/GitHub/homokozo/php/classes/Util.class.php",
+		"/C/Users/ferencz.attila/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/GitHub/homokozo/php/app/config.php",
+		"/C/GitHub/homokozo/php/classes/csomagkuldes/Csomag.class.php",
+		"/C/GitHub/homokozo/php/classes/csomagkuldes/Futar.class.php",
+		"/C/GitHub/homokozo/php/classes/csomagkuldes/Postas.class.php",
+		"/C/GitHub/homokozo/php/classes/csomagkuldes/Galamb.class.php",
+		"/C/GitHub/homokozo/php/classes/Courier.class.php",
+		"/C/GitHub/homokozo/php/classes/Postas.class.php",
+		"/C/Users/ferencz.attila/AppData/Roaming/Sublime Text 3/Packages/User/php-section-comment.sublime-snippet",
+		"/C/Users/ferencz.attila/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/C/GitHub/homokozo/sftp-config.json",
+		"/C/GitHub/homokozo/README",
+		"/C/GitHub/homokozo/php/test-array-iterations.php",
+		"/C/Users/ferencz.attila/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/Users/ferencz.attila/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/ferencz.attila/AppData/Roaming/Sublime Text 3/Packages/Gist/Default (Windows).sublime-keymap",
+		"/C/Program Files (x86)/cmder/Readme.md",
+		"/N/CD/Windows/Microsoft.Office.2013.Professional.Plus.64bit/!read.me.nfo"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "php/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "php/app/bootstrap.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								549,
+								549
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"project": "homokozo.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
