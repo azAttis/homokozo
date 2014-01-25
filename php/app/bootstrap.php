@@ -20,7 +20,7 @@ if (defined('ERROR_REPORTING_ON') && ERROR_REPORTING_ON) {
     ini_set('display_errors', true);
 }
 
-if (isset($_GET['phpinfo']) && $_GET['phpinfo'] == 'asdf' && APP_DEBUG) {
+if (isset($_GET['phpinfo']) && $_GET['phpinfo'] == 'getinfo' && APP_DEBUG) {
     phpinfo();
     die;
 }

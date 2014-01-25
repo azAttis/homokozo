@@ -1,0 +1,11 @@
+Some results (early 2k8 macbookpro) php/test-array-iterators.php
+
+For, all iterations end with sizeof: 2848 msec
+
+For, only one sizeof call: 1684 msec
+
+For using reference: 1655 msec
+
+Foreach: 1619 msec
+
+Mapper closure: 1807 msec
